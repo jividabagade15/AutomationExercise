@@ -10,7 +10,7 @@ import seleniumFramework.base.BaseTest;
 import seleniumFramework.base.Retry;
 import seleniumFramework.pages.CartPage;
 import seleniumFramework.pages.NavigationBar;
-import seleniumFramework.utils.ConfigReader;
+import seleniumFramework.utilities.ConfigReader;
 
 public class CartTest extends BaseTest {
 

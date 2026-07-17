@@ -6,7 +6,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import seleniumFramework.pages.CartPage;
 import seleniumFramework.pages.LoginPage;
-import seleniumFramework.utils.ConfigReader;
+import seleniumFramework.utilities.ConfigReader;
 
 /**
  * Base test class responsible for browser initialization, application launch,

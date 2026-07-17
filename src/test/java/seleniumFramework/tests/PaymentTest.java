@@ -13,7 +13,7 @@ import seleniumFramework.pages.CartPage;
 import seleniumFramework.pages.CheckoutPage;
 import seleniumFramework.pages.NavigationBar;
 import seleniumFramework.pages.PaymentPage;
-import seleniumFramework.utils.ConfigReader;
+import seleniumFramework.utilities.ConfigReader;
 
 public class PaymentTest extends BaseTest {
 	

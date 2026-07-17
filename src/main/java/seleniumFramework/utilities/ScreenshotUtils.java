@@ -1,4 +1,4 @@
-package seleniumFramework.utils;
+package seleniumFramework.utilities;
 
 import java.io.File;
 import java.io.IOException;

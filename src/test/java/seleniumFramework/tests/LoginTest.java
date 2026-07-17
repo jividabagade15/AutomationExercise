@@ -11,7 +11,7 @@ import seleniumFramework.base.BaseTest;
 import seleniumFramework.dataProviders.TestDataProvider;
 import seleniumFramework.pages.LoginPage;
 import seleniumFramework.pages.NavigationBar;
-import seleniumFramework.utils.ConfigReader;
+import seleniumFramework.utilities.ConfigReader;
 
 public class LoginTest extends BaseTest {
 	private LoginPage loginPage;
