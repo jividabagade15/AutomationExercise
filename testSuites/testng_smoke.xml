@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite">
+
+	<groups>
+		<run>
+			<include name="smoke" />
+		</run>
+	</groups>
+
+	<listeners>
+		<listener class-name="seleniumFramework.listeners.Listeners" />
+	</listeners>
+
+	<test name="Smoke Tests">
+		<classes>
+			<!--<class name="seleniumFramework.tests.LoginTest" />
+			<class name="seleniumFramework.tests.ProductTest" />
+			<class name="seleniumFramework.tests.CartTest" />
+			<class name="seleniumFramework.tests.CheckoutTest" /> -->
+			<class name="seleniumFramework.tests.PaymentTest" />
+		</classes>
+	</test>
+</suite>
