@@ -54,11 +54,13 @@ public class CheckoutPage extends BasePage {
 	 */
 	public boolean isProductPresent(String productName) {
 		
-		if (checkoutProducts.isEmpty()) {
-			throw new IllegalStateException("No products found on the checkout page.");
-		}
-		scrollToElement(checkoutProducts.get(0));
-		return checkoutProducts.stream().anyMatch(product -> product.getText().contains(productName));
+		checkIfEmpty(checkoutProducts);
+    List<WebElement> products = checkoutProducts;
+
+    scrollToElement(products.get(0));
+
+    return products.stream()
+            .anyMatch(product -> product.getText().contains(productName));
 	}
 
 	/**

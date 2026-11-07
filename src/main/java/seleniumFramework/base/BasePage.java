@@ -1,6 +1,7 @@
 package seleniumFramework.base;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -60,6 +61,10 @@ public class BasePage {
 		}
 	}
 
+	public void checkIfEmpty(List<WebElement> checkoutProducts) {
+		wait.until(driver ->
+        !checkoutProducts.isEmpty());
+	}
 	/**
 	 * Scrolls the page until the specified element is centered in the viewport.
 	 *
